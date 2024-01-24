@@ -39,9 +39,41 @@
 </head>
 <body class="primary font-manrope primary-color primary-font-color">
     <header>
+      <!-- navbar -->
+      <nav class="mx-20 h-40 py-10">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li  class="text-red-500"><a>Home</a></li> 
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost font-extrabold text-xl">Hockey’s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li  class="text-red-500"><a>Home</a></li> 
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end"><i class="mr-6  fa-solid fa-magnifying-glass"></i>
+            <a class=" btn bg-red-500 text-white" >Get Ticket</a>
+          </div>
+        </div>
+      </nav>
       <!-- banner section -->
         <section class="lg:relative">
-            <div class="carousel w-auto  lg:h-[550px] h-[320px] lg:m-24">
+            <div class="carousel w-auto  lg:h-[550px] h-[320px] mb-10 lg:mx-24">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="Images/1.png" class="w-full" />
                   <div class=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -326,6 +358,16 @@
         </div>
 
       </section> 
+      <!-- form section -->
+      <section>
+        <hr>
+        <div class=" text-center mt-6  mb-10">
+          <h2 class="text-3xl font-extrabold mb-6 ">Get In Touch</h2>
+          <p class=" font-light">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p> 
+        </div> 
+        <hr>
+      </section>
+      <!-- social media section -->
       <section class=" ">
         <div class="bg-base-200 h-32 lg:mx-24 mb-10 justify-center items-center text-center lg:p-10">
           <h2 class="text-xl font-bold mb-4">Social Media</h2>
